@@ -18,7 +18,7 @@
 </div></header>
 
 <div class="hero">
-  <p class="eyebrow">Última atualização: 25 de julho de 2026</p>
+  <p class="eyebrow">Última atualização: 21 de novembro de 2026</p>
   <h1>Política de Privacidade</h1>
   <p>Como o Vai de Van coleta, usa e protege os seus dados.</p>
 </div>
@@ -33,7 +33,7 @@
       <li><a href="#4"><span>4</span>Compartilhamento</a></li>
       <li><a href="#5"><span>5</span>Segurança</a></li>
       <li><a href="#6"><span>6</span>Retenção</a></li>
-      <li><a href="#7"><span>7</span>Direitos</a></li>
+      <li><a href="#7"><span>7</span>Direitos e exclusão</a></li>
       <li><a href="#8"><span>8</span>Permissões</a></li>
       <li><a href="#9"><span>9</span>Menores</a></li>
       <li><a href="#10"><span>10</span>Alterações</a></li>
@@ -48,45 +48,84 @@
     </section>
 
     <section id="2"><h2><span class="n">2.</span>Dados que coletamos</h2>
+      <p><b>Conta</b></p>
       <ul>
-        <li>Nome, e-mail, telefone e senha criptografada.</li>
+        <li>Nome, e-mail, telefone e senha criptografada (guardamos apenas o hash, nunca a senha).</li>
+        <li>Foto de perfil, se você optar por enviar uma.</li>
+        <li>CPF, quando necessário para pagamentos ou para o cadastro de motorista.</li>
+      </ul>
+      <p><b>Login com Google</b></p>
+      <ul>
+        <li>Se você entrar com o Google, recebemos da sua conta Google o nome, o e-mail (já verificado pelo Google) e um identificador da conta. Não recebemos sua senha do Google.</li>
+      </ul>
+      <p><b>Uso do aplicativo</b></p>
+      <ul>
         <li>Localização apenas quando solicitada pelo usuário.</li>
         <li>Histórico de viagens, reservas, rotas e valores.</li>
+        <li>Mensagens trocadas no chat do aplicativo e avaliações.</li>
         <li>Pagamentos processados pelo Mercado Pago (não armazenamos dados completos de cartão).</li>
-        <li>Documentos de motoristas para validação.</li>
+        <li>Token de notificação do aparelho, usado para enviar notificações push.</li>
+      </ul>
+      <p><b>Motoristas</b></p>
+      <ul>
+        <li>Documentos para validação: CPF, CNH (frente e verso) e selfie.</li>
+        <li>Dados do veículo: modelo, ano, placa, cor e capacidade.</li>
       </ul>
       <div class="note"><b>Importante:</b> não coletamos localização em segundo plano nem rastreamos continuamente o usuário.</div>
     </section>
 
     <section id="3"><h2><span class="n">3.</span>Como usamos seus dados</h2>
       <ul>
-        <li>Autenticação.</li>
+        <li>Autenticação, incluindo o login com Google.</li>
+        <li>Confirmação de e-mail: no cadastro com e-mail e senha, enviamos um link e um código de 6 dígitos para confirmar que o e-mail é seu. Até a confirmação, reservas, pagamentos e mensagens ficam bloqueados (exceto o contato com o suporte). Contas criadas com o Google já chegam confirmadas.</li>
         <li>Reservas e viagens.</li>
         <li>Pagamentos.</li>
-        <li>Comunicação.</li>
+        <li>Comunicação, por e-mail e por notificações push (novas reservas, mensagens do chat e avisos da viagem).</li>
+        <li>Validação de motoristas.</li>
         <li>Prevenção de fraudes.</li>
         <li>Melhoria do aplicativo.</li>
       </ul>
     </section>
 
     <section id="4"><h2><span class="n">4.</span>Compartilhamento</h2>
-      <p>Não vendemos dados pessoais. Compartilhamos apenas com o Mercado Pago, entre passageiro e motorista quando necessário para a viagem, ou por obrigação legal.</p>
+      <p>Não vendemos dados pessoais. Compartilhamos dados apenas entre passageiro e motorista quando necessário para a viagem, por obrigação legal, ou com os prestadores de serviço que operam o aplicativo em nosso nome, cada um só com o necessário para a sua função:</p>
+      <ul>
+        <li><b>Mercado Pago</b>: processamento de pagamentos, estornos e assinaturas de motoristas.</li>
+        <li><b>Google</b>: login com Google e serviços de mapas (por exemplo, para converter a localização escolhida em endereço).</li>
+        <li><b>Firebase Cloud Messaging (Google)</b>: entrega das notificações push.</li>
+        <li><b>Brevo</b>: envio de e-mails do aplicativo (confirmação de e-mail e redefinição de senha).</li>
+        <li><b>Cloudflare R2</b>: armazenamento em nuvem de arquivos enviados pelo app, como a foto de perfil.</li>
+        <li>Provedores de hospedagem em nuvem onde funcionam nossos servidores e banco de dados.</li>
+      </ul>
     </section>
 
     <section id="5"><h2><span class="n">5.</span>Segurança</h2>
-      <p>Utilizamos HTTPS, autenticação segura, armazenamento protegido e hash criptográfico para senhas.</p>
+      <p>Utilizamos HTTPS, autenticação segura, armazenamento protegido e hash criptográfico para senhas. Documentos de motoristas e CPF ficam com acesso restrito: só a equipe de validação consegue vê-los, e eles não aparecem para outros usuários.</p>
     </section>
 
     <section id="6"><h2><span class="n">6.</span>Retenção</h2>
-      <p>Os dados são mantidos apenas pelo período necessário para prestação dos serviços e cumprimento de obrigações legais.</p>
+      <p>Os dados são mantidos apenas pelo período necessário para prestação dos serviços e cumprimento de obrigações legais. Os links e códigos de confirmação de e-mail expiram em 24 horas. Ao excluir a conta, os dados pessoais são apagados ou anonimizados, como descrito na seção 7.</p>
     </section>
 
-    <section id="7"><h2><span class="n">7.</span>Seus direitos</h2>
-      <p>Você pode solicitar acesso, correção, atualização e exclusão dos seus dados quando permitido pela legislação. Veja <a href="delete-account.html">como excluir sua conta</a>.</p>
+    <section id="7"><h2><span class="n">7.</span>Seus direitos e exclusão da conta</h2>
+      <p>Você pode solicitar acesso, correção, atualização e exclusão dos seus dados quando permitido pela legislação. A exclusão pode ser feita pelo próprio aplicativo, em Perfil &gt; "Excluir minha conta". Veja também <a href="delete-account.html">como excluir sua conta</a>.</p>
+      <p>Ao excluir a conta:</p>
+      <ul>
+        <li>As assinaturas de motorista no Mercado Pago são canceladas, para que não haja novas cobranças.</li>
+        <li>Viagens e reservas futuras que ainda não começaram são canceladas, com estorno dos valores pagos aos passageiros conforme as regras de cancelamento.</li>
+        <li>Os documentos de motorista (CNH, selfie) e a foto de perfil são apagados, e o CPF é removido.</li>
+        <li>Nome, e-mail e telefone são anonimizados, a senha é invalidada e todas as sessões são encerradas.</li>
+        <li>As mensagens do chat, as notificações e o vínculo com a conta Google são apagados.</li>
+      </ul>
+      <p>Se houver uma viagem em andamento, a exclusão só pode ser feita depois que ela terminar. Registros de pagamento e o histórico de viagens podem ser mantidos, sem vínculo com seus dados pessoais, pelo prazo exigido pela legislação fiscal.</p>
     </section>
 
     <section id="8"><h2><span class="n">8.</span>Permissões</h2>
-      <p><span class="perm">ACCESS_FINE_LOCATION</span>: utilizada apenas enquanto o aplicativo estiver em uso e mediante ação do usuário.</p>
+      <ul>
+        <li><span class="perm">ACCESS_FINE_LOCATION</span>: utilizada apenas enquanto o aplicativo estiver em uso e mediante ação do usuário.</li>
+        <li><span class="perm">CAMERA</span> e acesso a fotos: usados apenas quando você escolhe tirar ou enviar uma foto (foto de perfil ou documentos de motorista).</li>
+        <li><span class="perm">POST_NOTIFICATIONS</span>: exibir notificações push. Você pode desativá-las nas configurações do aparelho.</li>
+      </ul>
     </section>
 
     <section id="9"><h2><span class="n">9.</span>Menores</h2>
